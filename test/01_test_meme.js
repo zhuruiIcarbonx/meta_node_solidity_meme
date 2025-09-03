@@ -137,7 +137,7 @@ describe("test MemeToken", async function() {
               const poolData = fs.readFileSync(path.resolve(__dirname,"../node_modules/@uniswap/v3-core/artifacts/contracts/UniswapV3Pool.sol/UniswapV3Pool.json"),"utf-8")
               const poolAbi = JSON.parse(poolData).abi
               const poolBytecode = JSON.parse(poolData).bytecode 
-               const poolContract = new ethers.Contract(poolAddr,poolAbi, deployerSigner);
+              const poolContract = new ethers.Contract(poolAddr,poolAbi, deployerSigner);
 
                const slot0 = await poolContract.slot0();
                const pool_token0 = await poolContract.token0();

@@ -1,0 +1,21 @@
+{
+  "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "abi": [
+    "event Approval(address indexed,address indexed,uint256)",
+    "event Deposit(address indexed,uint256)",
+    "event Transfer(address indexed,address indexed,uint256)",
+    "event Withdrawal(address indexed,uint256)",
+    "function allowance(address,address) view returns (uint256)",
+    "function approve(address,uint256) returns (bool)",
+    "function balanceOf(address) view returns (uint256)",
+    "function decimals() view returns (uint8)",
+    "function deposit() payable",
+    "function name() view returns (string)",
+    "function symbol() view returns (string)",
+    "function totalSupply() view returns (uint256)",
+    "function transfer(address,uint256) returns (bool)",
+    "function transferFrom(address,address,uint256) returns (bool)",
+    "function withdraw(uint256)"
+  ],
+  "numDeployments": 1
+}
